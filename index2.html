@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta viewport="width= device-width, initial scale=0.1">
+        <title></title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <header>           
+            <nav class="top">
+                <ul>                    
+                    <li class="top-items top-itemR"><a href="">About</a></li>
+                    <li class="top-items top-itemR"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <h1>MY TEMPLATE</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit fuga obcaecati rem quo ipsam in distinctio quaerat illo. Beatae velit aliquid laboriosam? Architecto dolore aspernatur, rem placeat magnam impedit.</p>
+            <figure>
+                <img id="cat" src="https://i.pinimg.com/originals/cc/c4/06/ccc406dbafc09f3ac2f066a494af21e7.jpg" alt="img not found" width="30%">
+                <figcaption>caption for image ^^</figcaption>
+            </figure>
+
+            <hr>
+
+            <section>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+            </section>
+        </main>
+        <aside>
+            <nav class="side">
+                <li id="home"><a href="">Home</a></li>
+                <ul>
+                    
+                    <br>
+                    <li class="side-items"><a href="">About</a></li>
+                    <br>
+                    <li class="side-items"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <!--move to seperate css file-->
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                background-color: #ABA9BB;
+            }
+
+            .top{
+                background-color: #464555;
+                padding-top: 0.5%;
+                padding-bottom: 0.5%;
+            }
+
+            #home{
+                background-color: #464555;
+                padding-top: 2vh;
+            }
+            ul{
+                list-style: none;
+                                
+                height:2vh;
+                padding-bottom: 1vh;
+            }
+
+            li{
+                list-style: none;
+            }
+
+            a{
+                text-decoration: none;  
+                color: antiquewhite; 
+                font-weight: 700;             
+            }
+
+            li a:hover{
+                color: #B67573;
+                font-size: larger;
+            }
+
+            .top-items{
+                display:inline;
+                letter-spacing: 0.2em;
+                padding-left: 1em;                
+            }
+
+            .top-itemR{
+                float: right;
+                word-spacing:4em;
+                padding-right: 1em;
+            }
+
+            .side{
+                position: fixed;
+                background-color: #B9B6EA;
+                width: 10%;
+                height: 100%;
+                top: 0;
+            }
+
+            main{
+                width:87vw;
+                position:absolute;
+                height:100vh;
+                right:0;
+                padding-right: 1%;
+            }
+
+            figcaption{
+                text-align: center;
+            }
+
+            #cat{
+                position: relative;
+                right: -35%;
+                border-radius: 50%;
+            }
+        </style>
+        
+    </body>
+</html>
