@@ -18,7 +18,10 @@
         
         <main>
             <h1>MY TEMPLATE</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed sit fuga obcaecati rem quo ipsam in distinctio quaerat illo. Beatae velit aliquid laboriosam? Architecto dolore aspernatur, rem placeat magnam impedit.</p>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>          
             <figure>
                 <img id="cat" src="https://i.pinimg.com/originals/cc/c4/06/ccc406dbafc09f3ac2f066a494af21e7.jpg" alt="img not found" width="30%">
                 <figcaption>caption for image ^^</figcaption>
@@ -27,20 +30,17 @@
             <hr>
 
             <section>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti ut asperiores veritatis atque aspernatur fugit, dolores eos saepe hic et. Quasi maiores, iste magnam sit excepturi maxime quo dicta. Porro.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil! Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident illo voluptatum veniam accusamus id, laborum amet labore tenetur similique saepe. Optio esse ducimus laboriosam iure aperiam voluptates enim culpa repellat?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla alias officia tempore esse labore facilis. Minus modi sint nemo soluta aspernatur dolores molestiae, eaque nulla tempore harum. A, nam soluta.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni facilis adipisci excepturi, magnam molestias atque repellendus dolor vitae tenetur harum officia dicta eligendi dolores laudantium id repudiandae impedit nihil!</p>
             </section>
         </main>
         <aside>
             <nav class="side">
                 <li id="home"><a href="">Home</a></li>
-                <ul>
-                    
+                <ul>                    
                     <br>
                     <li class="side-items"><a href="">About</a></li>
                     <br>
@@ -69,6 +69,11 @@
             #home{
                 background-color: #464555;
                 padding-top: 2vh;
+                padding-left: 2vw;
+            }
+
+            .side-items{
+                padding-left: 2vw;
             }
             ul{
                 list-style: none;
@@ -84,7 +89,7 @@
             a{
                 text-decoration: none;  
                 color: antiquewhite; 
-                font-weight: 700;             
+                font-weight: 700;            
             }
 
             li a:hover{
@@ -109,7 +114,7 @@
                 background-color: #B9B6EA;
                 width: 10%;
                 height: 100%;
-                top: 0;
+                top: 0;                
             }
 
             main{
@@ -128,6 +133,31 @@
                 position: relative;
                 right: -35%;
                 border-radius: 50%;
+                box-shadow: -5px 4px 10px rgb(24, 13, 13);
+            }
+
+            button{
+                display: inline-block;                
+                width: 5vw;
+                height: 10vh;
+                border: none;
+                border-radius: 50%;
+                box-shadow: -3px 4px 2px  rgb(66, 37, 37);
+                background-color: rgb(255, 140, 161);
+                padding-top: 20px;
+            }
+
+            button:hover{
+                box-shadow:3px -1px 2px 2px inset rgb(72, 38, 38);
+            }
+
+            p{
+                letter-spacing:0.4ch;
+                word-spacing: 1%;
+                line-height: 2em;
+                color: #2f2c6c;
+                text-align: center;
+                columns: 2;
             }
         </style>
         
