@@ -33,16 +33,20 @@ main{
 section{
     background: rgb(66, 235, 131);
 }
+/*div with 3 divs to display time*/
 #wrap{
     display: flex;
     padding: 10px;
     z-index: 5;
 }
+
 header{
     display: flex;
     place-content: center;
     justify-content: space-around;
 }
+
+/**/
 #sec {
     position: absolute;
     font-size: 24px;
@@ -53,6 +57,7 @@ header{
     top: 8vh;
     border-radius: 20%;
 }
+/*hours div*/
 #hr{
     position: absolute;
     font-size: 24px;
@@ -64,11 +69,7 @@ header{
     
 }
 
-#time{
-    position: relative;
-    left: 42.5%; /*change 4 coll*/
-    top: 10vh;
-}
+/*minutes div*/
 #min{
     position: absolute;
     font-size: 24px;
@@ -77,6 +78,13 @@ header{
     right: 45%;
     top: 8vh;
     border-radius: 20%;
+}
+
+/*button style*/
+#time{
+    position: relative;
+    left: 42.5%; /*change 4 coll*/
+    top: 10vh;
 }
 
 main{
