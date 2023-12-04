@@ -1,0 +1,84 @@
+*{
+    margin: 1vh;
+    padding-left: 0;  
+    box-sizing: border-box;
+    color: black;
+    font-weight: 700;
+}
+
+body{
+    background-color: pink;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    padding-right: 1%;
+}
+header{
+    position: absolute;
+    top: -1vh;
+    left: -0.5vw;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+
+main{
+    position: absolute;
+    top:20%;
+    background: rgb(225, 170, 93);
+}
+section{
+    background: rgb(66, 235, 131);
+}
+#wrap{
+    display: flex;
+    padding: 10px;
+    z-index: 5;
+}
+header{
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+}
+#sec {
+    position: absolute;
+    font-size: 24px;
+    background-color: rgb(169, 205, 235);
+    padding: 10px;
+    padding-right:13px;
+    right: 38%;
+    top: 8vh;
+    border-radius: 20%;
+}
+#hr{
+    position: absolute;
+    font-size: 24px;
+    background-color: rgb(169, 205, 235);
+    padding: 10px;
+    right: 53%;
+    top: 8vh;
+    border-radius: 20%;
+    
+}
+
+#time{
+    position: relative;
+    left: 42.5%; /*change 4 coll*/
+    top: 10vh;
+}
+#min{
+    position: absolute;
+    font-size: 24px;
+    background-color: rgb(169, 205, 235);
+    padding: 10px;
+    right: 45%;
+    top: 8vh;
+    border-radius: 20%;
+}
+
+main{
+    margin-top: 5vh;
+}
