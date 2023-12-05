@@ -33,60 +33,53 @@ main{
 section{
     background: rgb(66, 235, 131);
 }
-/*div with 3 divs to display time*/
 #wrap{
     display: flex;
     padding: 10px;
     z-index: 5;
 }
-
 header{
     display: flex;
     place-content: center;
     justify-content: space-around;
 }
-
-/*seconds div*/
 #sec {
     position: absolute;
     font-size: 24px;
     background-color: rgb(169, 205, 235);
     padding: 10px;
     padding-right:13px;
-    right: 38%;
+    right: 44.5%;
     top: 8vh;
     border-radius: 20%;
 }
-/*hours div*/
 #hr{
     position: absolute;
     font-size: 24px;
     background-color: rgb(169, 205, 235);
     padding: 10px;
-    right: 53%;
+    right: 51%;
     top: 8vh;
     border-radius: 20%;
     
 }
 
-/*minutes div*/
 #min{
     position: absolute;
     font-size: 24px;
     background-color: rgb(169, 205, 235);
     padding: 10px;
-    right: 45%;
+    right: 47.5%;
     top: 8vh;
     border-radius: 20%;
 }
 
-/*button style*/
 #time{
     position: relative;
-    left: 42.5%; /*change 4 coll*/
-    top: 10vh;
+ /*change 4 coll*/
+    top: 1vh;
 }
 
 main{
-    margin-top: 5vh;
+    top:15vh
 }
